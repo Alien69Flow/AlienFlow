@@ -14,12 +14,12 @@ const Layout: React.FC = () => {
 
   const bgMap: Record<string, string> = {
     '/': "/lovable-uploads/EMWBack.png",
-    '/academy': "/lovable-uploads/AP1.avif",
-    '/alien-trip': "/lovable-uploads/ET.png",
-    '/conetworking': "/lovable-uploads/VC.png",
-    '/clubs': "/lovable-uploads/AW.png",
-    '/contact': "/lovable-uploads/EMWBack.png",
-    '/about': "/lovable-uploads/EMWBack.png",
+    '/academy': "/lovable-uploads/9e48e9b3-7a5a-4c0a-b89d-9cbbef58d7a7.png",
+    '/alien-trip': "/lovable-uploads/74c23ca3-be80-46d6-9817-d6a5cde81736.png",
+    '/conetworking': "/lovable-uploads/debf8db3-f2a1-4235-9e43-f6b8ba371818.png",
+    '/clubs': "/lovable-uploads/630f07a8-9ff5-4bd8-9881-91336cfaf826.png",
+    '/contact': "/lovable-uploads/78a366c8-b4ad-4ae7-8358-3aae322b228f.png",
+    '/about': "/lovable-uploads/808e8413-144f-4a4c-834a-cc55fceac706.png",
   };
   const bgImage = bgMap[location.pathname] || "/lovable-uploads/EMWBack.png";
 

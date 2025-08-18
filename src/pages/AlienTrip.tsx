@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Rocket, Star, Clock, ScrollText, BookOpen, PieChart } from 'lucide-react';
+import StarBackground from '@/components/StarBackground';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const AlienTrip: React.FC = () => {
